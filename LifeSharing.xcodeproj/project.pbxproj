@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8FD27B0978C6F4E0DA82DDA /* Pods_LifeSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38FA3190C56007BA732D218 /* Pods_LifeSharing.framework */; };
+		AB133FBB29C089BA009DB821 /* LS-TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB133FBA29C089BA009DB821 /* LS-TabViewController.swift */; };
+		AB133FBD29C08BAE009DB821 /* LS-FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB133FBC29C08BAE009DB821 /* LS-FrontPageViewController.swift */; };
+		AB133FC129C08C10009DB821 /* LS-PostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB133FC029C08C10009DB821 /* LS-PostPageViewController.swift */; };
+		AB133FC329C08C25009DB821 /* LS-MemoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB133FC229C08C25009DB821 /* LS-MemoPageViewController.swift */; };
+		AB133FC529C08C31009DB821 /* LS-AboutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB133FC429C08C31009DB821 /* LS-AboutPageViewController.swift */; };
+		AB133FC729C08CD3009DB821 /* LS-MessagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB133FC629C08CD3009DB821 /* LS-MessagePageViewController.swift */; };
 		AB7193A829BF2F700085C19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7193A729BF2F700085C19D /* AppDelegate.swift */; };
 		AB7193AA29BF2F700085C19D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7193A929BF2F700085C19D /* SceneDelegate.swift */; };
 		AB7193AC29BF2F700085C19D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7193AB29BF2F700085C19D /* ViewController.swift */; };
@@ -17,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4533D2A1330598450566DF09 /* Pods-LifeSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSharing.release.xcconfig"; path = "Target Support Files/Pods-LifeSharing/Pods-LifeSharing.release.xcconfig"; sourceTree = "<group>"; };
+		A38FA3190C56007BA732D218 /* Pods_LifeSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB133FBA29C089BA009DB821 /* LS-TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LS-TabViewController.swift"; sourceTree = "<group>"; };
+		AB133FBC29C08BAE009DB821 /* LS-FrontPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LS-FrontPageViewController.swift"; sourceTree = "<group>"; };
+		AB133FC029C08C10009DB821 /* LS-PostPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LS-PostPageViewController.swift"; sourceTree = "<group>"; };
+		AB133FC229C08C25009DB821 /* LS-MemoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LS-MemoPageViewController.swift"; sourceTree = "<group>"; };
+		AB133FC429C08C31009DB821 /* LS-AboutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LS-AboutPageViewController.swift"; sourceTree = "<group>"; };
+		AB133FC629C08CD3009DB821 /* LS-MessagePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LS-MessagePageViewController.swift"; sourceTree = "<group>"; };
 		AB7193A429BF2F700085C19D /* LifeSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7193A729BF2F700085C19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7193A929BF2F700085C19D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +41,7 @@
 		AB7193B329BF2F720085C19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB7193B629BF2F720085C19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB7193B829BF2F720085C19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F757EA7FC863BD6E5D93D999 /* Pods-LifeSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSharing.debug.xcconfig"; path = "Target Support Files/Pods-LifeSharing/Pods-LifeSharing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FD27B0978C6F4E0DA82DDA /* Pods_LifeSharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E4FECF9412A8623CDCEE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A38FA3190C56007BA732D218 /* Pods_LifeSharing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB71939B29BF2F700085C19D = {
 			isa = PBXGroup;
 			children = (
 				AB7193A629BF2F700085C19D /* LifeSharing */,
 				AB7193A529BF2F700085C19D /* Products */,
+				DF51BD268D12C061C3350C97 /* Pods */,
+				25E4FECF9412A8623CDCEE7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +89,28 @@
 				AB7193A929BF2F700085C19D /* SceneDelegate.swift */,
 				AB7193AB29BF2F700085C19D /* ViewController.swift */,
 				AB7193AD29BF2F700085C19D /* Main.storyboard */,
+				AB133FBA29C089BA009DB821 /* LS-TabViewController.swift */,
+				AB133FBC29C08BAE009DB821 /* LS-FrontPageViewController.swift */,
+				AB133FC229C08C25009DB821 /* LS-MemoPageViewController.swift */,
+				AB133FC029C08C10009DB821 /* LS-PostPageViewController.swift */,
+				AB133FC629C08CD3009DB821 /* LS-MessagePageViewController.swift */,
+				AB133FC429C08C31009DB821 /* LS-AboutPageViewController.swift */,
 				AB7193B329BF2F720085C19D /* Assets.xcassets */,
 				AB7193B529BF2F720085C19D /* LaunchScreen.storyboard */,
 				AB7193B829BF2F720085C19D /* Info.plist */,
 				AB7193B029BF2F700085C19D /* LifeSharing.xcdatamodeld */,
 			);
 			path = LifeSharing;
+			sourceTree = "<group>";
+		};
+		DF51BD268D12C061C3350C97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F757EA7FC863BD6E5D93D999 /* Pods-LifeSharing.debug.xcconfig */,
+				4533D2A1330598450566DF09 /* Pods-LifeSharing.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB7193BB29BF2F720085C19D /* Build configuration list for PBXNativeTarget "LifeSharing" */;
 			buildPhases = (
+				7DF26603F6001A0CCEE170DF /* [CP] Check Pods Manifest.lock */,
 				AB7193A029BF2F700085C19D /* Sources */,
 				AB7193A129BF2F700085C19D /* Frameworks */,
 				AB7193A229BF2F700085C19D /* Resources */,
+				B482333A4B939AF66263A219 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +181,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DF26603F6001A0CCEE170DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B482333A4B939AF66263A219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSharing/Pods-LifeSharing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSharing/Pods-LifeSharing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeSharing/Pods-LifeSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB7193A029BF2F700085C19D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB133FC729C08CD3009DB821 /* LS-MessagePageViewController.swift in Sources */,
+				AB133FC129C08C10009DB821 /* LS-PostPageViewController.swift in Sources */,
+				AB133FBD29C08BAE009DB821 /* LS-FrontPageViewController.swift in Sources */,
+				AB133FC529C08C31009DB821 /* LS-AboutPageViewController.swift in Sources */,
+				AB133FC329C08C25009DB821 /* LS-MemoPageViewController.swift in Sources */,
 				AB7193B229BF2F700085C19D /* LifeSharing.xcdatamodeld in Sources */,
 				AB7193AC29BF2F700085C19D /* ViewController.swift in Sources */,
 				AB7193A829BF2F700085C19D /* AppDelegate.swift in Sources */,
 				AB7193AA29BF2F700085C19D /* SceneDelegate.swift in Sources */,
+				AB133FBB29C089BA009DB821 /* LS-TabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +379,7 @@
 		};
 		AB7193BC29BF2F720085C19D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F757EA7FC863BD6E5D93D999 /* Pods-LifeSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,11 +388,12 @@
 				DEVELOPMENT_TEAM = NZUGB72476;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LifeSharing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iShare;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +409,7 @@
 		};
 		AB7193BD29BF2F720085C19D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4533D2A1330598450566DF09 /* Pods-LifeSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,11 +418,12 @@
 				DEVELOPMENT_TEAM = NZUGB72476;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LifeSharing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iShare;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
