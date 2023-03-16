@@ -1,0 +1,23 @@
+//
+//  LS-Front-NearbyVC.swift
+//  LifeSharing
+//
+//  Created by 陈龙 on 2023/3/16.
+//
+
+import UIKit
+import XLPagerTabStrip
+
+class LS_Front_NearbyVC: UIViewController, IndicatorInfoProvider {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .systemGray6
+    }
+    
+    func indicatorInfo(for pagerTabStripController: XLPagerTabStrip.PagerTabStripViewController) -> XLPagerTabStrip.IndicatorInfo {
+        return IndicatorInfo(title: "附近 ")
+    }
+    
+
+}
